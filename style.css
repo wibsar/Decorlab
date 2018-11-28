@@ -1,0 +1,75 @@
+@charset "utf-8";
+body{
+	font-family: Medel;
+	color: white;
+}
+.parallax { 
+    background-image: url(Images/background-design-floor-1088166.jpg);
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+	background-image: url(Images/Header.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	margin-top: 60px;
+}
+.blackbox{
+	background: #000000;
+	width: 100%;
+	height: 400px;
+}
+.blackbox2{
+	background: #000000;
+	width: 100%;
+	height: 100px;
+}
+.logoheader {
+	display:flex;
+	margin:auto;
+	padding: 100px;
+	
+}
+.navbar{
+	background: #000000;
+	overflow:hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+	padding: 25px 30px ;
+    text-decoration: none;	
+}
+.navbar a2 {
+	margin-left: 30px;
+	position: fixed;
+	margin-top: 5px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background:#00CCFF;
+    color:black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.welcome {
+	margin-right: 20px;
+}
+.msg {
+	margin-right: 20px;
+}
